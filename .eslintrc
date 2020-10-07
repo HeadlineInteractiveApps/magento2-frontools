@@ -11,6 +11,12 @@ rules:
   array-bracket-spacing: 0
   computed-property-spacing: 0
   key-spacing: 0
+  no-misspelled-properties:
+    - 2
+    -
+      extra-properties:
+        - 'scrollbar-width'
+        - 'overflow-scrolling'
   no-var: 2
   indent:
     - 2
